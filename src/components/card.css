@@ -1,6 +1,13 @@
 .card {
     border: solid black 1px;
-    width:75%;
+    widows: 75%;
     height: auto;
-    margin-left: 12.5%;
+    margin: 6%;
+   
+}
+.cardItem{
+    width: 35%;
+    display: inline-block;
+    border: solid black 5px;
+    margin: 50px;
 }

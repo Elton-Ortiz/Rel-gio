@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="page">
 
-      <h1>Relógios do Mundo!</h1>
+      <h1>Familia Ortiz</h1>
       <Card />
 
     </div>
