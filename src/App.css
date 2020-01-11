@@ -1,9 +1,23 @@
 
+@font-face{
+  font-family: "fontFlower";
+  src: url("./fonts/IndieFlower-Regular.ttf");
+}
 .page {
+
   font-size: 1.5em;
   width:100%;
   height:auto;
   align-items: center;
   text-align: center;
-  background-color: rgb(195,170,170); /* Povisorio */
+  background-color:#a79d9a ;
+}
+h1{
+  font-family: "fontFlower";
+  color:#0a1612;
+  background-color: #f3ce3e;
+}
+
+.page h1:first-child {
+  font-size: 3em;
 }

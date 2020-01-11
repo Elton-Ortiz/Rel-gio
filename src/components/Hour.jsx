@@ -1,4 +1,5 @@
 import React from "react"
+import "./Hour.css"
 
 
 export default class FetchHour extends React.Component {
@@ -42,7 +43,7 @@ export default class FetchHour extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="hour">
         {this.state.hour}
       </div>
     )

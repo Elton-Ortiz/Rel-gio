@@ -1,4 +1,5 @@
 import React from "react"
+import "./Temperature.css"
 
 
 export default class FetchWeather extends React.Component {
@@ -20,8 +21,8 @@ export default class FetchWeather extends React.Component {
 
   render() {
     return (
-      <div>
-        {!this.state.temp ? <div>Loading...</div> : <div><div>Temperatura: {(this.state.temp - 273.15).toFixed(0)}</div>  </div>}
+      <div id="temperature">
+        {!this.state.temp ? <span>Loading...</span> : <span>Temperatura: {(this.state.temp - 273.15).toFixed(0)}<sup>0</sup> C</span>}
       </div>
     )
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 import Hour from './Hour.jsx'
 import Temperature from './Temperature.jsx'
@@ -7,32 +8,31 @@ import './card.css'
 export default class Card extends Component {
     render() {
         return (
-            <div className="card">
+            <div className="card container">
                 <div className="cardItem">
-                    <h1>
+                    <h2>
                         São Paulo
-                    </h1>
+                    </h2>
                     <Hour timeZone="America/Sao_Paulo" />
                     <Temperature countryId="3448439" />
                 </div>
                 <div className="cardItem">
-                    <h1>
-                        Londres
-                    </h1>
+                    <h2>Londres
+                    </h2>
                     <Hour timeZone="Europe/London" />
                     <Temperature countryId="2643743" />
                 </div>
                 <div className="cardItem">
-                    <h1>
+                    <h2>
                         Lisboa
-                    </h1>
+                    </h2>
                     <Hour timeZone="Europe/Lisbon" />
                     <Temperature countryId="2267057" />
                 </div>
                 <div className="cardItem">
-                    <h1>
+                    <h2>
                         Australia
-                    </h1>
+                    </h2>
                     <Hour timeZone="Australia/Sydney" />
                     <Temperature countryId="2158177" />
                 </div>

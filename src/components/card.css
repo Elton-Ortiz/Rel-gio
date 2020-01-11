@@ -1,13 +1,40 @@
 .card {
-    border: solid black 1px;
-    widows: 75%;
-    height: auto;
-    margin: 6%;
-   
+    width: 100%;
+    height: 800px;
+    background-color: #1a2930;   
 }
-.cardItem{
-    width: 35%;
-    display: inline-block;
+.card .cardItem{
+    background-color:#0a1612;
+    opacity: 0.81;
+    color:#a79d9a;
+    width:300px;   
     border: solid black 5px;
-    margin: 50px;
+    border-radius: 12px 50px;
+    margin: 30px auto;
 }
+
+.card .cardItem:hover{
+    width: 350px;
+    height: 350px;
+    transition: width .4s cubic-bezier(1,.16,.83,.67) 0.1s;
+}
+.card .cardItem:hover #temperature{
+    display: block;
+}
+.card .cardItem h2{
+    font-family: "fontFlower";
+    width: auto;
+    margin:0 25% 5px 5px ;
+    background-color:#0a1612  ;
+    color:#a79d9a;
+    padding:0;
+    text-align: left;
+}
+
+
+
+/* Paleta de cores
+cinza   #c5c1c0 
+verde escuro #0a1612
+azul escuro #1a2930
+amarelo #f73ce3e*/
